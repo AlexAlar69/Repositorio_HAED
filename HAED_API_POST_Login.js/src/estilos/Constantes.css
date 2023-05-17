@@ -1,0 +1,18 @@
+:root{
+    --haed:#006D77;
+    --titulos:#104141;
+    --light-b-haed:#0fbedd;
+    --light-haed:#2c8f62;
+    --gray-haed:#808080;
+    --non-white-haed:#f5f5f5;
+    --non-black-haed:#16161a;
+    --cabecera:#039eac;
+
+    
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+    font-style: normal;
+    font-weight: normal;
+}

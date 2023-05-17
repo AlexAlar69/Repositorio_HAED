@@ -1,0 +1,112 @@
+/*!Configuraciones generales de bootstrap*/
+@import url(./Constantes.css);
+
+
+div.row{
+    margin-right: 0;
+}
+ 
+div.container-fluid{
+    padding-right: 0px;
+}
+
+#log_sign{
+    margin-bottom: 50pt;
+}
+
+/*Estilos del recuadro izquierdo de la página*/
+.sign{
+    background: linear-gradient(90deg, #8eb0ae , #006D77);
+    align-items: center;
+    padding: 60pt;
+    padding-top: 150pt;
+    padding-bottom: 150pt;
+    text-align: center;
+}
+.sign h2{
+    color:white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20pt;
+}
+.sign button{
+    background-color:transparent;
+    border-color: white;
+    padding: 10pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    margin:30pt;
+    color:white;
+    border-radius: 5pt;
+}
+.sign button:hover{
+    background-color: white;
+    color:var(--light-b-haed);
+
+}
+
+/*Estilos del formulario de Inicio de Sesión*/
+.login{
+    padding: 50pt;
+    align-items: center;
+    padding-top: 100pt;
+    text-align: center;
+}
+.login h2{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 30pt;
+    color:var(--light-b-haed);
+}
+.login h3{
+    margin-bottom: 20pt;
+}
+.login input{
+    width: 90%;
+    height: 30pt;
+    margin-top: 10pt;
+    margin-bottom: 20pt;
+    border:none;
+    border-bottom: solid 1pt var(--gray-haed);
+    
+}
+
+.login #myPassword{
+    width: 80%;
+    height: 30pt;
+    margin-top: 10pt;
+    margin-bottom: 20pt;
+    border:none;
+    border-bottom: solid 1pt var(--gray-haed);
+    display: inline;
+}
+
+.login #ingresar{
+    margin: top 20pt;
+    width: 100%;
+    height: 50pt;
+    background-color: transparent;
+    border:solid var(--light-b-haed) 1pt;
+    color:var(--light-b-haed);
+    font-weight: bolder;
+    margin-top: 20pt;
+    border-radius: 5pt;
+}
+.login #ingresar:hover{
+    background-color: var(--light-b-haed);
+    color:white;
+
+}
+.login button{
+    color:#808080;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+.login button:hover{
+    color:black;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
